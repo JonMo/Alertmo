@@ -1,0 +1,16 @@
+PODS:
+  - Alertmo (0.1.0)
+
+DEPENDENCIES:
+  - Alertmo (from `../`)
+
+EXTERNAL SOURCES:
+  Alertmo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alertmo: 8241b68f6c495f9901ee9da7ec11215a5cd17322
+
+PODFILE CHECKSUM: 553c9c1b5a322895cc950f8a46d3d5b6106ff73b
+
+COCOAPODS: 1.2.1

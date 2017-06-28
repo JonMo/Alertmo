@@ -1,0 +1,6 @@
+framework module Alertmo {
+  umbrella header "Alertmo-umbrella.h"
+
+  export *
+  module * { export * }
+}
