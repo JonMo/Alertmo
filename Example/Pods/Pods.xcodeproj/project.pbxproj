@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FFC530E8A48286091D22E15C6FA7E72 /* AlertmoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C537D1AD52A2FFA324F7978D2A5BDE /* AlertmoView.swift */; };
 		242642C2AA0DDFC3861493B8F722C1A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2FB509DED5E889EF3F0C39F8A472BF90 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F2A00B20AA787755B547B67E172A25 /* ReplaceMe.swift */; };
+		4BF5A186E9447C2EDF093E825968D4B4 /* AlertmoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188721BAFC75384C6493F61986A53925 /* AlertmoButton.swift */; };
+		4F5FCE8F09C4CDBB41CDB6412C16AE0A /* Alertmo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C884654CD8E181B3E0A794D877A490 /* Alertmo.swift */; };
 		5E28B970E8254E43E9F048A18C0E6F58 /* Pods-Alertmo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DBB79589209B390205AEE656AC672C /* Pods-Alertmo_Tests-dummy.m */; };
 		62E1CB1AAE64348F056536222DDA04AF /* Pods-Alertmo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 767004FE9A4A924895A0EB8D3AF77D6C /* Pods-Alertmo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		677B1548BF71EF53F9A7BBB4981F8FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7E81D6A93E61C67C72CD6F3FF5A1310D /* Pods-Alertmo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8ECDB6CDDF5A5F02610CE11596958C /* Pods-Alertmo_Example-dummy.m */; };
-		BACEA66E873BF3485D10DD9C97A7CE48 /* Alertmo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D1AB5EF46FC6A921D10AC997B102BD /* Alertmo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC1486784436157B4AB1737AB6F7A4F1 /* Pods-Alertmo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F01D6CF290CAED9A91061172A7DC2FA2 /* Pods-Alertmo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB8E6F4FDEA606E17A229AD33E869E6 /* Alertmo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F3CFB159627817E1C34D9982AC5815 /* Alertmo-dummy.m */; };
 		DF0A388FB849E3386321D4C8FF862A4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EDAE3025DB69EFAEC3EBE00196632F80 /* Alertmo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F3CFB159627817E1C34D9982AC5815 /* Alertmo-dummy.m */; };
+		F615854A7E5BDF283C668B9AF056E53D /* Alertmo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D1AB5EF46FC6A921D10AC997B102BD /* Alertmo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB3EA50216B26D8593912452DB91263E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,37 +26,39 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18EE9665373449A893CC3E5EFABDBC3A;
+			remoteGlobalIDString = 186246114C00AA5038661374ABA38F74;
 			remoteInfo = Alertmo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		176E6E9CB10F4983A5A3059CEB049C76 /* Pods_Alertmo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alertmo_Example.framework; path = "Pods-Alertmo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		176E6E9CB10F4983A5A3059CEB049C76 /* Pods_Alertmo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alertmo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188721BAFC75384C6493F61986A53925 /* AlertmoButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertmoButton.swift; sourceTree = "<group>"; };
 		1B3C77E61B1420C8609E8C5EBCE6CAD6 /* Pods-Alertmo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alertmo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1F39C94F7ECF8566B0860C832ACDD669 /* Alertmo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alertmo.xcconfig; sourceTree = "<group>"; };
 		1F646AC5C8DD45D08CCDF4528D1FB37E /* Pods-Alertmo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertmo_Tests-resources.sh"; sourceTree = "<group>"; };
 		21E800402C669E19BE86EC830DB9A97D /* Pods-Alertmo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alertmo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30406E5A84253DA997C5D427D4EC768C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36712B9F5BDEE275942B0CD09F89BFF2 /* Pods-Alertmo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertmo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		36949A0D8D58911385BE690E15423149 /* Alertmo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alertmo.framework; path = Alertmo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43685662A9CF3701793B5120E266EF03 /* Pods-Alertmo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alertmo_Tests.modulemap"; sourceTree = "<group>"; };
+		36949A0D8D58911385BE690E15423149 /* Alertmo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alertmo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43685662A9CF3701793B5120E266EF03 /* Pods-Alertmo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Alertmo_Tests.modulemap"; sourceTree = "<group>"; };
 		4431367FA819D6F5A11DC3BBE0CA525E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E4A213F91B7B8F442697D3248A050A /* Pods-Alertmo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertmo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		46D1AB5EF46FC6A921D10AC997B102BD /* Alertmo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertmo-umbrella.h"; sourceTree = "<group>"; };
 		4B498437DBA18EB980B7032CD348F050 /* Pods-Alertmo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertmo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		50F2A00B20AA787755B547B67E172A25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		59C884654CD8E181B3E0A794D877A490 /* Alertmo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alertmo.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7468C230F69BD28D05DEF1C8CF45A3FB /* Alertmo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alertmo.modulemap; sourceTree = "<group>"; };
+		7468C230F69BD28D05DEF1C8CF45A3FB /* Alertmo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alertmo.modulemap; sourceTree = "<group>"; };
 		767004FE9A4A924895A0EB8D3AF77D6C /* Pods-Alertmo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alertmo_Example-umbrella.h"; sourceTree = "<group>"; };
 		8A55744CE8A72AF55BEE1C80CD59C0A0 /* Pods-Alertmo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alertmo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99F3CFB159627817E1C34D9982AC5815 /* Alertmo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alertmo-dummy.m"; sourceTree = "<group>"; };
 		A11135A7817043A417EC23C7CEDE3A1B /* Pods-Alertmo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertmo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A4BA48280FAD70C4675C4040BD4CCA41 /* Alertmo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertmo-prefix.pch"; sourceTree = "<group>"; };
 		A7DBB79589209B390205AEE656AC672C /* Pods-Alertmo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alertmo_Tests-dummy.m"; sourceTree = "<group>"; };
-		B6D8749A29BCB8A74E5083BB9E293D0F /* Pods-Alertmo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alertmo_Example.modulemap"; sourceTree = "<group>"; };
-		CEE0833A0BDBD348AC8E443EBF6916ED /* Pods_Alertmo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alertmo_Tests.framework; path = "Pods-Alertmo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D8749A29BCB8A74E5083BB9E293D0F /* Pods-Alertmo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Alertmo_Example.modulemap"; sourceTree = "<group>"; };
+		C6C537D1AD52A2FFA324F7978D2A5BDE /* AlertmoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertmoView.swift; sourceTree = "<group>"; };
+		CEE0833A0BDBD348AC8E443EBF6916ED /* Pods_Alertmo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alertmo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60B91FBDC7EFFE01A9B117D3E1730C9 /* Pods-Alertmo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alertmo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D680AF5E501D06A84A45D740F8ADD3B0 /* Pods-Alertmo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertmo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DD8B65B0681F585C11D1FF87B26644FE /* Pods-Alertmo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertmo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,19 +69,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5420D55520C463455F6B10EBFB88A8BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				677B1548BF71EF53F9A7BBB4981F8FA2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7BF424CFF4038E1A9259FA86681A957B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				242642C2AA0DDFC3861493B8F722C1A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41A02A645F08B90241420709406EBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3EA50216B26D8593912452DB91263E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +99,7 @@
 		3125616A91AAC35BE5E768B9C7945EB0 /* Alertmo */ = {
 			isa = PBXGroup;
 			children = (
-				94019F691E32A8D9980283B9D533CEE2 /* Alertmo */,
+				4A2C92E8033628F819D31655D469DFCA /* Alertmo */,
 				A06AE7B71DCD6CFAD7F763DA8AE99D8E /* Support Files */,
 			);
 			name = Alertmo;
@@ -129,6 +133,14 @@
 			path = "Target Support Files/Pods-Alertmo_Tests";
 			sourceTree = "<group>";
 		};
+		4A2C92E8033628F819D31655D469DFCA /* Alertmo */ = {
+			isa = PBXGroup;
+			children = (
+				914CA0D25C13364BB2F591E292506085 /* Classes */,
+			);
+			path = Alertmo;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -150,13 +162,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94019F691E32A8D9980283B9D533CEE2 /* Alertmo */ = {
+		914CA0D25C13364BB2F591E292506085 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C6A4610240AD3E95392E6C6DBA457573 /* Classes */,
+				59C884654CD8E181B3E0A794D877A490 /* Alertmo.swift */,
+				188721BAFC75384C6493F61986A53925 /* AlertmoButton.swift */,
+				C6C537D1AD52A2FFA324F7978D2A5BDE /* AlertmoView.swift */,
 			);
-			name = Alertmo;
-			path = Alertmo;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		97700A7CFF941B79E46A258EFA4723A1 /* Development Pods */ = {
@@ -187,15 +200,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6A4610240AD3E95392E6C6DBA457573 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				50F2A00B20AA787755B547B67E172A25 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -243,24 +247,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9684D5E8DF976903C37A5B96112595CE /* Headers */ = {
+		618690526ECF330316FFD50A2E4D8C15 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACEA66E873BF3485D10DD9C97A7CE48 /* Alertmo-umbrella.h in Headers */,
+				F615854A7E5BDF283C668B9AF056E53D /* Alertmo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18EE9665373449A893CC3E5EFABDBC3A /* Alertmo */ = {
+		186246114C00AA5038661374ABA38F74 /* Alertmo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77892CC81EEBA37D0C584DDAD8CC439E /* Build configuration list for PBXNativeTarget "Alertmo" */;
+			buildConfigurationList = 4AE5A101D2EC290850CE05471D867E5A /* Build configuration list for PBXNativeTarget "Alertmo" */;
 			buildPhases = (
-				876B6C128F8EA09BEF9CDF420BCF79A1 /* Sources */,
-				5420D55520C463455F6B10EBFB88A8BE /* Frameworks */,
-				9684D5E8DF976903C37A5B96112595CE /* Headers */,
+				5AF8B8E908AD1486771D44E2347F61D3 /* Sources */,
+				A41A02A645F08B90241420709406EBF8 /* Frameworks */,
+				618690526ECF330316FFD50A2E4D8C15 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -327,7 +331,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18EE9665373449A893CC3E5EFABDBC3A /* Alertmo */,
+				186246114C00AA5038661374ABA38F74 /* Alertmo */,
 				4808FF766F30681B5EB4C2DE67F4283C /* Pods-Alertmo_Example */,
 				57895BF25ECF57779B53CA47B0C9F2E4 /* Pods-Alertmo_Tests */,
 			);
@@ -343,20 +347,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5AF8B8E908AD1486771D44E2347F61D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB8E6F4FDEA606E17A229AD33E869E6 /* Alertmo-dummy.m in Sources */,
+				4F5FCE8F09C4CDBB41CDB6412C16AE0A /* Alertmo.swift in Sources */,
+				4BF5A186E9447C2EDF093E825968D4B4 /* AlertmoButton.swift in Sources */,
+				1FFC530E8A48286091D22E15C6FA7E72 /* AlertmoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		813813EFE4E8B2386CDE22D055EF26A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7E81D6A93E61C67C72CD6F3FF5A1310D /* Pods-Alertmo_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		876B6C128F8EA09BEF9CDF420BCF79A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDAE3025DB69EFAEC3EBE00196632F80 /* Alertmo-dummy.m in Sources */,
-				2FB509DED5E889EF3F0C39F8A472BF90 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,13 +372,49 @@
 		8B4F7BADC4526B89EE9A65F5E5A77F6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alertmo;
-			target = 18EE9665373449A893CC3E5EFABDBC3A /* Alertmo */;
+			target = 186246114C00AA5038661374ABA38F74 /* Alertmo */;
 			targetProxy = 8E80A22D2992F40ED21623D33914EB30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		4261242BDDEA4B00A7E3F891231AD64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D680AF5E501D06A84A45D740F8ADD3B0 /* Pods-Alertmo_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertmo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alertmo_Tests/Pods-Alertmo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alertmo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -420,41 +462,46 @@
 			};
 			name = Debug;
 		};
-		410549918988F7C5FCEC01C99299C441 /* Release */ = {
+		5A10ECB12ED628957FC903A3AF4EDBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F39C94F7ECF8566B0860C832ACDD669 /* Alertmo.xcconfig */;
+			baseConfigurationReference = 36712B9F5BDEE275942B0CD09F89BFF2 /* Pods-Alertmo_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alertmo/Alertmo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alertmo/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertmo_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alertmo/Alertmo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alertmo;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alertmo_Example/Pods-Alertmo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alertmo_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		4E81CD4D277B72E763C2E96B3114D934 /* Release */ = {
+		6ACE171B0A261BB6966A6725ECDE963C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45E4A213F91B7B8F442697D3248A050A /* Pods-Alertmo_Example.release.xcconfig */;
 			buildSettings = {
@@ -472,7 +519,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Alertmo_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Alertmo_Example/Pods-Alertmo_Example.modulemap";
@@ -492,7 +539,112 @@
 			};
 			name = Release;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		95ED25A711BEA378943CD49835A8506E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F39C94F7ECF8566B0860C832ACDD669 /* Alertmo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alertmo/Alertmo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alertmo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alertmo/Alertmo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alertmo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2F37CBA51D2E7A1505CFCEF9C4A789D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F39C94F7ECF8566B0860C832ACDD669 /* Alertmo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alertmo/Alertmo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alertmo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alertmo/Alertmo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alertmo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B99B5D51EF6C8D0D81ACAF3324D27671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8B65B0681F585C11D1FF87B26644FE /* Pods-Alertmo_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertmo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alertmo_Tests/Pods-Alertmo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alertmo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -528,7 +680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -536,160 +688,14 @@
 			};
 			name = Release;
 		};
-		B2EB5671E575CCC68A4B3F48477B7189 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F39C94F7ECF8566B0860C832ACDD669 /* Alertmo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alertmo/Alertmo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alertmo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alertmo/Alertmo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alertmo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B71B15D600B6CFF5908ABB4C975B8BAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD8B65B0681F585C11D1FF87B26644FE /* Pods-Alertmo_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Alertmo_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alertmo_Tests/Pods-Alertmo_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Alertmo_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E4DE51E017732C8D5998F1785ABF6B96 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D680AF5E501D06A84A45D740F8ADD3B0 /* Pods-Alertmo_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Alertmo_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alertmo_Tests/Pods-Alertmo_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Alertmo_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FAD071BC9583187C9E8682E2F684F7DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36712B9F5BDEE275942B0CD09F89BFF2 /* Pods-Alertmo_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Alertmo_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alertmo_Example/Pods-Alertmo_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Alertmo_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1C766307EA7457D673204FC72EB7865F /* Build configuration list for PBXNativeTarget "Pods-Alertmo_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B71B15D600B6CFF5908ABB4C975B8BAF /* Debug */,
-				E4DE51E017732C8D5998F1785ABF6B96 /* Release */,
+				B99B5D51EF6C8D0D81ACAF3324D27671 /* Debug */,
+				4261242BDDEA4B00A7E3F891231AD64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -697,8 +703,8 @@
 		259EFBAB08748419EC5CABC202D36099 /* Build configuration list for PBXNativeTarget "Pods-Alertmo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAD071BC9583187C9E8682E2F684F7DD /* Debug */,
-				4E81CD4D277B72E763C2E96B3114D934 /* Release */,
+				5A10ECB12ED628957FC903A3AF4EDBEA /* Debug */,
+				6ACE171B0A261BB6966A6725ECDE963C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -706,17 +712,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77892CC81EEBA37D0C584DDAD8CC439E /* Build configuration list for PBXNativeTarget "Alertmo" */ = {
+		4AE5A101D2EC290850CE05471D867E5A /* Build configuration list for PBXNativeTarget "Alertmo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2EB5671E575CCC68A4B3F48477B7189 /* Debug */,
-				410549918988F7C5FCEC01C99299C441 /* Release */,
+				95ED25A711BEA378943CD49835A8506E /* Debug */,
+				B2F37CBA51D2E7A1505CFCEF9C4A789D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

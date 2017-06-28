@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AB5233651F035ED7003F4155 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5233641F035ED7003F4155 /* lock.png */; };
 		F70DC27CE53A9469129B6CF7 /* Pods_Alertmo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809E331322586052F57AE16D /* Pods_Alertmo_Tests.framework */; };
 		FA739851AE0ABACAE04536AD /* Pods_Alertmo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475E9D81B2E29B9ADB35BC87 /* Pods_Alertmo_Example.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		02AF704E153DAEF2FE050853 /* Pods-Alertmo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alertmo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alertmo_Tests/Pods-Alertmo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		05AF3B27A45B766F606B615F /* Pods-Alertmo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alertmo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alertmo_Example/Pods-Alertmo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		09B79C204750A27786F0DAD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		09B79C204750A27786F0DAD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		475E9D81B2E29B9ADB35BC87 /* Pods_Alertmo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alertmo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B55E021F29CB680CA2F147E /* Pods-Alertmo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alertmo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alertmo_Tests/Pods-Alertmo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Alertmo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alertmo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +44,10 @@
 		607FACE51AFB9204008FA782 /* Alertmo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alertmo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7824A9093D7EAD103C509B64 /* Alertmo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Alertmo.podspec; path = ../Alertmo.podspec; sourceTree = "<group>"; };
+		7824A9093D7EAD103C509B64 /* Alertmo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Alertmo.podspec; path = ../Alertmo.podspec; sourceTree = "<group>"; };
 		809E331322586052F57AE16D /* Pods_Alertmo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alertmo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A97EB6D062C527CA9CE3CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83A97EB6D062C527CA9CE3CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AB5233641F035ED7003F4155 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
 		BBB79469FC36CF35C108CD6C /* Pods-Alertmo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alertmo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alertmo_Example/Pods-Alertmo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB5233641F035ED7003F4155 /* lock.png */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Y8RTDRYXZU;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Y8RTDRYXZU;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5233651F035ED7003F4155 /* lock.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -496,7 +502,9 @@
 			baseConfigurationReference = BBB79469FC36CF35C108CD6C /* Pods-Alertmo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8RTDRYXZU;
 				INFOPLIST_FILE = Alertmo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +518,9 @@
 			baseConfigurationReference = 05AF3B27A45B766F606B615F /* Pods-Alertmo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8RTDRYXZU;
 				INFOPLIST_FILE = Alertmo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -523,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B55E021F29CB680CA2F147E /* Pods-Alertmo_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Y8RTDRYXZU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02AF704E153DAEF2FE050853 /* Pods-Alertmo_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Y8RTDRYXZU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

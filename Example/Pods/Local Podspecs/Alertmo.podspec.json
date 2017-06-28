@@ -1,8 +1,8 @@
 {
   "name": "Alertmo",
   "version": "0.1.0",
-  "summary": "A short description of Alertmo.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A custom Alert written in Swift",
+  "description": "A View Controller that provides a custom Alert with image and buttons",
   "homepage": "https://github.com/JonMo/Alertmo",
   "license": {
     "type": "MIT",
