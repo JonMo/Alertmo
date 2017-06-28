@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Alertmo_Example' do
+  pod 'Alertmo', :path => '../'
+
+  target 'Alertmo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
