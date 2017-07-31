@@ -15,7 +15,7 @@ public protocol AlertmoViewControllerDelegate {
 
 public class Alertmo: UIViewController {
     
-    public var alertView: AlertmoView!
+    var alertView: AlertmoView!
     
     public var titleText: String?
     public var messageText: String?

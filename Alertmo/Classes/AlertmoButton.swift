@@ -13,7 +13,7 @@ class AlertmoButton: UIButton {
         
         super.init(frame: frame)
         
-        self.setBackgroundColor(UIColor.blue, forState: .normal)
+        self.setBackgroundColor(UIColor(red: 0.0, green: 49.0 / 255.0, blue: 64.0 / 255.0, alpha: 1.0), forState: .normal)
         self.setBackgroundColor(UIColor.gray, forState: .disabled)
         self.setTitleColor(.white, for: UIControlState())
         self.setTitleColor(UIColor(red:1, green:1, blue:1, alpha:0.6), for: .highlighted)
