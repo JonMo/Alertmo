@@ -1,3 +1,6 @@
+
+![alertmo_logo@2x.png]({{site.baseurl}}/alertmo_logo@2x.png)
+
 # Alertmo
 
 [![CI Status](http://img.shields.io/travis/JonMo/Alertmo.svg?style=flat)](https://travis-ci.org/JonMo/Alertmo)
