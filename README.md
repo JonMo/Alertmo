@@ -1,5 +1,4 @@
-
-![alertmo_logo@2x.png]({{site.baseurl}}/alertmo_logo@2x.png)
+![alertmo_logo@2x.png](https://github.com/JonMo/Alertmo/blob/master/alertmo_logo%402x.png)
 
 # Alertmo
 
