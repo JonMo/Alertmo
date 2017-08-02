@@ -1,6 +1,4 @@
-
-![alertmo_logo.png](https://github.com/JonMo/Alertmo/blob/master/alertmo_logo.png)
-
+![alertmo-logo.png]({{site.baseurl}}/alertmo-logo.png)
 
 # Alertmo
 
