@@ -1,4 +1,4 @@
-![alertmo.png]({{site.baseurl}}/alertmo.png)
+![alertmo-logo.png]({{site.baseurl}}/alertmo-logo.png)
 
 # Alertmo
 
