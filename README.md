@@ -1,3 +1,5 @@
+![alertmo-logo.png](https://github.com/JonMo/Alertmo/blob/master/alertmo-logo.png)
+
 # Alertmo
 
 [![CI Status](http://img.shields.io/travis/JonMo/Alertmo.svg?style=flat)](https://travis-ci.org/JonMo/Alertmo)
